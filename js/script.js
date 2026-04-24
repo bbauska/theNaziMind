@@ -1,6 +1,6 @@
+// theNaziMind/js/script.js for theNaziMind.bauska.org 
 // hide these elements on page load
 $('#main-menu, .menu-close').hide();
-
 
 // open menu on menu open click
 $('.menu-open').on('click', function(e) {
@@ -9,7 +9,6 @@ $('.menu-open').on('click', function(e) {
   $('.menu-open').hide();
   $('.menu-close').show();
 });
-
 
 // close menu on menu close or link click
 $('.menu-close').on('click', function(e) {
