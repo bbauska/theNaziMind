@@ -132,6 +132,11 @@ article {
   font-size: 0.9rem;
 }
 
+.chapter-sub2 {
+  padding-bottom: 1rem;
+  font-size: 0.7rem;
+}
+
 #main-menu {
   background: #eee;
   text-align: center;
