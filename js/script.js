@@ -1,4 +1,4 @@
-// theNaziMind/js/script.js for theNaziMind.bauska.org 
+// ./js/script.js of/for theNaziMind.bauska.org 
 // hide these elements on page load
 $('#main-menu, .menu-close').hide();
 
