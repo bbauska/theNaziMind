@@ -1,19 +1,9 @@
 {
   "name": "The Nazi Mind",
-  "short_name": "Page Flip", 
-  "start_url": "/NaziMind.bauska.org",
+  "short_name": "Nazi Mind", 
+  "start_url": "index.html",
   "display": "standalone",
   "icons": [
-    {
-      "src": "/images/android-chrome-192x192.png",
-      "sizes": "192x192",
-      "type": "image/png"
-    }
-  ]
-}
-{
- "name": "Nazi Mind",
- "icons": [
   {
    "src": "\/images/android-icon-36x36.png",
    "sizes": "36x36",
