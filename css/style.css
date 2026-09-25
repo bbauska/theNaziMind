@@ -193,7 +193,9 @@ article {
 }
 
 .none {
-  display: none;
+  margin: 1rem 0 0.5rem;
+  font-size: 18px;
+  line-height: 1.3;
 }
 
 /* promote first letter of 1st paragraph */
