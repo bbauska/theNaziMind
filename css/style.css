@@ -10,16 +10,9 @@ body {
   font-family: "IM Fell DW Pica", serif;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
+h1, h2, h3, h4, h5, h6, p {
   margin: 0;
 }
-
 p {
   margin: 1rem 0 0.5rem;
   font-size: 18px;
@@ -32,6 +25,7 @@ p {
     line-height: 1.4;
   }
 }
+
 article {
   padding: 0 1rem 60px;
   max-width: 768px;
@@ -196,6 +190,10 @@ article {
 }
 .poem p {
   font-size: 1.1rem;
+}
+
+.none {
+  display: none;
 }
 
 /* promote first letter of 1st paragraph */
