@@ -1,0 +1,85 @@
+<!-- end-notes.html -->
+<p>
+  This is a statement that requires further clarification or verification from an external source<sup id="ref-1">
+  <a href="#note-1" class="endnote-link" aria-describedby="endnote-section">[1]</a></sup>. 
+  You can continue writing your main text here as usual<sup id="ref-2"><a href="#note-2" class="endnote-link" aria-describedby="endnote-section">[2]</a></sup>.
+</p>
+
+<!-- Endnotes Section -->
+<footer id="endnote-section" aria-label="Endnotes">
+  <hr class="endnote-divider">
+  <ol class="endnotes-list">
+    <li id="note-1">
+      Smith, J. (2026). <em>The Web Architecture Journal</em>. 
+      <a href="#ref-1" class="back-link" aria-label="Back to content">↩</a>
+    </li>
+    <li id="note-2">
+      Doe, J. (2025). <em>Styling Semantics</em>. 
+      <a href="#ref-2" class="back-link" aria-label="Back to content">↩</a>
+    </li>
+  </ol>
+</footer>
+
+
+<!-- AND NOW THE CSS -->
+/* Smoothly scrolls the window when an endnote link is clicked */
+html {
+  scroll-behavior: smooth;
+}
+
+/* In-text citation style */
+.endnote-link {
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0 2px;
+  color: #0066cc;
+}
+
+.endnote-link:hover {
+  text-decoration: underline;
+}
+
+/* Endnotes container */
+#endnote-section {
+  margin-top: 4rem;
+  font-size: 0.9rem;
+  color: #4a4a4a;
+}
+
+.endnote-divider {
+  border: 0;
+  border-top: 1px solid #ccc;
+  width: 20%;
+  margin-left: 0;
+  margin-bottom: 1.5rem;
+}
+
+/* Creating a clean layout with hanging indents */
+.endnotes-list {
+  padding-left: 1.5rem;
+}
+
+.endnotes-list li {
+  margin-bottom: 0.5rem;
+  line-height: 1.5;
+}
+
+/* Style for the back arrow button */
+.back-link {
+  text-decoration: none;
+  color: #0066cc;
+  margin-left: 0.5rem;
+  font-family: sans-serif;
+}
+
+.back-link:hover {
+  font-weight: bold;
+}
+
+/* Highlight the active target note when clicked */
+.endnotes-list li:target {
+  background-color: #f0f7ff;
+  padding: 2px 5px;
+  border-radius: 4px;
+}
+
