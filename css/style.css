@@ -121,7 +121,7 @@ article {
 .chapter-sub {
   padding-bottom: 1rem;
   text-transform: uppercase;
-  font-size: 0.9rem;
+  font-size: 1.7rem;  /* 0.9 */
 }
 .chapter-sub2 {
   padding-bottom: 1rem;
